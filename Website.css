@@ -1,0 +1,168 @@
+* {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.header div {
+	padding-right: 29px;
+}
+
+.header li {
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 23px;
+	position: relative;
+}
+
+hr {
+	width: 80%;
+	color: black;
+	align: center;
+	padding-left: 15px;
+}
+
+#slider {
+	float: left;
+	height: 500px;
+	max-height: 500px;
+	width: 855px;
+	max-width: 45%;
+	margin-left: 200px;
+	margin-top: 10px;
+	margin-right: 4px;
+	font-size: 62px;
+	color: white;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#image {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#left_hold {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#right_hold {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.left {
+	height:100%;
+	width:50px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+}
+
+.right {
+	height:100%;
+	width:50px;
+	position:absolute;
+	top: 0px;
+	right:0px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+}
+
+#left_hold:hover .left {
+	opacity:0.6;
+}
+
+#right_hold:hover .right {
+	opacity:0.6;
+}
+
+#calendar {
+	float: right;
+	height: 500px;
+	max-height: 500px;
+	background-color: paleturquoise;
+	width: 33.2%;
+	max-width: 33.5%;
+	margin-top: 10px;
+	margin-right: 200px;
+}
+
+#calendar>p {
+ 	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+#calendar-day {
+	font-size: 80px;
+	padding-top: 30px
+}
+
+#calendar-date {
+ 	font-size: 160px;
+ 	padding-top: 15px;
+ 	padding-bottom: 0;
+}
+
+#calendar-month-year {
+	font-size: 75px;
+	padding-top: 15px;
+}
+
+.featured {
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
+.featured div {
+	background-color: paleturquoise;
+	display: inline-block;
+	margin-top: 15px;
+	width: 23%;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	vertical-align: middle;
+	border: 9px solid gainsboro;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-dcoration: none;
+	color: gainsboro;
+}
+
+a:visited {
+	text-decoration: none;
+}

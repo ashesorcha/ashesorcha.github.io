@@ -1,0 +1,122 @@
+* {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.header div {
+	padding-right: 29px;
+}
+
+.header li {
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 23px;
+	position: relative;
+}
+
+hr {
+	width: 80%;
+	color: black;
+	align: center;
+	padding-left: 15px;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-top: -40px;
+	font-weight: 100;
+	background-color: paleturquoise;
+	width: 79%;
+	margin: 0 auto;
+	padding-top: .05px;
+	padding-bottom: .05px;
+	margin-top: 18px;
+}
+
+.recipes {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.recipes div {
+	display: block;
+	width: 80.8%;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+	
+.recipes div div {
+	display: inline-block;
+	width: 17%;
+	height: 300px;
+	background-color: paleturquoise;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	
+}
+
+#casing {
+	position: relative;
+	text-align: center;
+}
+
+#photo {
+	display: inline-block;
+	background-color: white;
+	background-size: 100% 100%;
+	position: absolute;
+	height: 233px;
+	width: 239px;
+	margin-left: -129px;
+	margin-top: -2px;
+}
+
+img {
+	height: 233px;
+	width: 239px;
+}
+
+#caption {
+	display: inline-block;
+	background-color: white;
+	position: absolute;
+	height: 20px;
+	width: 239px;
+	margin-left: -129px;
+	bottom: 10px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-dcoration: none;
+	color: gainsboro;
+}
+
+a:visited {
+	text-decoration: none;
+}

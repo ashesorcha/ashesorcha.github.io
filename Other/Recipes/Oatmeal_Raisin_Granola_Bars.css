@@ -1,0 +1,148 @@
+* {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.header div {
+	padding-right: 29px;
+}
+
+.header li {
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 23px;
+	position: relative;
+}
+
+hr {
+	width: 80%;
+	color: black;
+	align: center;
+	padding-left: 15px;
+}
+
+.jumbotron {
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.jumbotron p {
+	margin-top: -598px;
+	margin-left: 18px;
+	font-size: 20px;
+	color: white;
+}
+
+img {
+	width: 1513px;
+	height: 600px;
+	border: 6px solid paleturquoise;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-left: 226px;
+	margin-top: -90px;
+	font-size: 60px;
+	font-weight: lighter;
+	color: white;
+	
+}
+
+.recipe {
+	clear: both;
+	text-align: center;
+	color: #5C5C5C;
+	font-weight: 100;
+}
+
+.recipe div {
+	background-color: white;
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 70px;
+	padding-right: 20px;
+	padding-top: 10px;
+	margin-right: 2px;
+	margin-left: 18px;
+	vertical-align: middle;
+	text-align: left;
+	margin-bottom: 470px;
+}
+
+#ingredients {
+	width: 350px;
+	height: 500px;
+}
+	
+#ingredients h2 {
+	font-size: 40px;
+}
+
+#ingredients p {
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+#preparation {
+	width: 1000px;
+	height: 500px;
+}
+
+#preparation h2 {
+	font-size: 40px;
+}
+
+#preparation p {
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+em {
+	font-weight: 600;
+}
+
+ul {
+	font-size: 25px;
+}
+
+ul li {
+	margin-bottom: 18px;
+}
+
+ol {
+	font-size: 25px;
+}
+
+ol li {
+	margin-bottom: 35px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-dcoration: none;
+	color: gainsboro;
+}
+
+a:visited {
+	text-decoration: none;
+}
