@@ -133,18 +133,18 @@ hr {
 
 #calendar-day {
 	font-size: 5vw;
-	padding-top: 1.8vw
+	padding-top: calc(135px - 5vw);
 }
 
 #calendar-date {
  	font-size: 8vw;
- 	padding-top: .7vw;
+ 	padding-top: calc(85px - 4vw);
  	padding-bottom: 0;
 }
 
 #calendar-month-year {
 	font-size: 4vw;
-	padding-top: .7vw;
+	padding-top: calc(100px - 5vw);
 }
 
 .featured {
