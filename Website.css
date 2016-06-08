@@ -186,8 +186,8 @@ a:visited {
 @media screen and (max-width: 1000px) {
 	#slider {
 		float: left;
-		height: 500px;
-		max-height: 500px;
+		height: 52.3vw;
+		max-height: 52.3vw;
 		width: 100%;
 		max-width: 100%;
 		margin-left: auto;
