@@ -172,6 +172,10 @@ hr {
 	padding-left: 0px;
 }
 
+.featured div:nth-child(3) {
+	padding-right: 0px;
+}
+
 a:link {
 	text-decoration: none;
 	color: black;
@@ -249,5 +253,9 @@ a:visited {
 
 	.featured div:first-child {
 		padding-left: 0px;
+	}
+
+	.featured div:nth-child(3) {
+		padding-right: 0px;
 	}
 }
