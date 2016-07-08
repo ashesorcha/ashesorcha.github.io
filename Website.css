@@ -169,11 +169,11 @@ hr {
 }
 
 .featured div:first-child {
-	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .featured div:nth-child(3) {
-	padding-right: 0px;
+	margin-right: 0px;
 }
 
 a:link {
@@ -252,10 +252,10 @@ a:visited {
 	}
 
 	.featured div:first-child {
-		padding-left: 0px;
+		margin-left: 0px;
 	}
 
 	.featured div:nth-child(3) {
-		padding-right: 0px;
+		margin-right: 0px;
 	}
 }
