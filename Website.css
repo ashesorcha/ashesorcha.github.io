@@ -167,6 +167,7 @@ hr {
 	margin-left: .23vw;
 	vertical-align: middle;
 	border: none;
+	color: gainsboro;
 }
 
 .featured div:first-child {
