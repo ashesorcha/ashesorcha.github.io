@@ -11,8 +11,8 @@ body {
 }
 
 .header {
-	height: 50px;
-	width: 100%;
+	height: 2.8vw;
+	width: 100vw;
 	background-color: white;
 	text-align: center;
 	vertical-align: middle;
@@ -21,7 +21,7 @@ body {
 }
 
 .header div {
-	padding-right: 2.3%;
+	padding-right: 4vw;
 }
 
 .header li {
@@ -33,10 +33,10 @@ body {
 }
 
 hr {
-	width: 80%;
+	width: 80vw;
 	color: black;
 	align: center;
-	padding-left: 15px;
+	padding-left: 2vw;
 }
 
 .jumbotron {
