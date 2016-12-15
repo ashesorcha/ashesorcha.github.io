@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="Layout(2).css"/>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+	$("#slideshow > div:gt(0)").hide();
+	       setInterval(function() { 
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  6000);
+			
+		});
+</script>
+		<title>My Website(2)</title>
+	</head>
+	<body>
+	<div class="header">
+		<table style="width:100%">
+		<tr>
+			<th class="title"><a href="Layout(2).html">Cookbook <div class="icon">&#9776;</div></a></th>
+			<th class="tab"><a href="Breakfast(2).html">Breakfast</a></th>
+			<th class="tab"><a href="Lunch(2).html">Lunch</a></th>
+			<th class="tab"><a href="Dinner(2).html">Dinner</a></th>
+			<th class="tab"><a href="Dessert(2).html">Dessert</a></th>
+			<th class="tab"><div class="dropdown">
+  			<button class="dropbtn"><a href="Other(2).html">Other</a></button>
+  				<div class="dropdown-content">
+    				<a href="Sides.html">Sides</a>
+    				<a href="Snacks.html">Snacks</a>
+				<a href="Beverages.html">Beverages</a>
+				<a href="Appetizers.html">Appetizers</a>
+				<a href="Breads&Baking.html">Breads & Baking</a>
+  				</div>
+			</div>
+			</th>
+		</tr>
+		</table>
+	</div>
+	<div id="slideshow">
+		<div>
+			<img src="Slideshow/Oatmeal_Raisin_Granola_Bars.jpg">
+		</div>
+		<div>
+			<img src="Slideshow/Marion's_Irish_Scones.jpg">
+		</div>
+		<div>
+			<img src="Slideshow/Banana_Bread (2).jpg">
+		</div>
+		<div>
+			<img src="Slideshow/Spicy_Tuna_Puttanesca_Banner.jpg">
+		</div>
+	</div>
+	<center><img src="Images/DownArrow.png" id="flowarrow"></center>
+	<div class="feed">
+		<table style="width:100%">
+		<tr>
+			<th><a href="Recipes/Beet_&_Carrot_Soup.html"><div>
+				<div id="caption">Beet & Carrot Soup</div>
+				<img src="Images/Beet_&_Carrot_Soup_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Pumpkin_Puree.html"><div>
+				<div id="caption">Pumpkin Puree</div>
+				<img src="Images/Pumpkin_Puree_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Spicy_Tuna_Puttanesca.html"><div>
+				<div id="caption">
+					<p>Spicy Tuna</p>
+					<p>Puttanesca</p>
+				</div>
+				<img src="Images/Spicy_Tuna_Puttanesca_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Banana_Bread.html"><div>
+				<div id="caption">Banana Bread</div>
+				<img src="Images/Banana_Bread_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Baccala_Alla_Cappuccina.html"><div>
+				<div id="caption">
+					<p>Baccala Alla</p>
+					<p>Cappuccina</p>
+				</div>
+				<img src="Images/Baccala_Alla_Cappuccina_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Cinnamon_Raisin_Granola.html"><div>
+				<div id="caption">
+					<p>Cinnamon-Raisin</p>
+					<p>Granola</p>
+				</div>
+				<img src="Images/Cinnamon_Raisin_Granola_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Oatmeal_Raisin_Granola_Bars.html"><div>
+				<div id="caption">
+					<p>Oatmeal-Raisin</p>
+					<p>Granola Bars</p>
+				</div>
+			<img src="Images/Oatmeal_Raisin_Granola_Bars_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Shrimp_Pappardelle.html"><div>
+				<div id="caption">Shrimp Pappardelle</div>
+				<img src="Images/Shrimp_Pappardelle_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Peach_Pie.html"><div>
+				<div id="caption">Peach Pie</div>
+				<img src="Images/Peach_Pie_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Shoestring_French_Fries.html"><div>
+				<div id="caption">Shoestring French Fries</div>
+				<img src="Images/Shoestring_French_Fries_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Marion's_Irish_Scones.html"><div>
+				<div id="caption">Marion's Irish Scones</div>
+				<img src="Images/Marion's_Irish_Scones_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Pie_Crust.html"><div>
+				<div id="caption">Pie Crust</div>
+				<img src="Images/Pie_Crust_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Classic_Hamburger.html"><div>
+				<div id="caption">Classic Hamburger</div>
+				<img src="Images/Classic_Hamburger_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Shish_Kebabs.html"><div>
+				<div id="caption">Shish Kebabs</div>
+				<img src="Images/Shish_Kebabs_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Steak_Frites.html"><div>
+				<div id="caption">Steak Frites</div>
+				<img src="Images/Steak_Frites_Cover.jpg">
+			</div></a></th>
+			<th><a href="Recipes/Flourless_Chocolate_Torte.html"><div>
+				<div id="caption">Flourless Chocolate Torte</div>
+				<img src="Images/Flourless_Chocolate_Torte_Cover.jpg">
+			</div></a></th>
+		</tr>		
+		</table>
+	</div>
+	</body>
+</html>
+		

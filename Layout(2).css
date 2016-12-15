@@ -1,0 +1,398 @@
+@font-face {
+ 	font-family: Salaryman;
+  	src: url(www.WebpagePublicity.com/free-fonts/s/Salaryman.ttf);
+}
+
+@font-face {
+	font-family: Raleway Thin;
+	src= url(https://fonts.googleapis.com/css?family=Raleway:100);	
+}
+
+.header {
+	font-size: 1vw;
+	font-family: Salaryman;
+}
+
+.header table {
+	margin-top: 1vw;
+	border: 1px solid black;
+	padding: 1vw;
+	padding-left: 0px;
+}
+
+th {
+	text-align: center;
+	font-weight: 400;
+}
+
+.title {
+	font-size: 2vw;
+}
+
+.icon {
+	display: none;
+}	
+
+.title a:hover {
+	opacity: 1.0;
+}
+
+.dropbtn {
+    	color: black;
+	font-weight: 400;
+	font-family: Salaryman;
+    	font-size: 1vw;
+	padding; 3vw 0vw 3vw 0vw;
+    	border: none;
+	cursor: pointer;
+	background-color: white;
+}
+
+.dropdown {
+    	position: relative;
+    	display: block;
+	text-align: center;
+	margin-top: none;
+	background-color: white;
+}
+
+.dropdown-content {
+	padding-top: 1vw;
+	padding-bottom: .6vw;
+    	display: none;
+    	position: absolute;
+    	background-color: white;
+    	width: 100%
+	overflow: auto;
+	z-index: 10;
+}
+
+.dropdown-content a {
+    	color: black;
+    	padding: .75vw 1vw;
+    	text-decoration: none;
+    	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    	display: block;
+	box-shadow: 0vw .5vw 1vw 0vw rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropbtn {
+    	background-color: white;
+}
+
+#slideshow {
+	width: 83vw;
+	height: 37vw;
+	margin: auto;
+	margin-top: 2vw;
+	color: white;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#slideshow > div {
+	height: 100%;
+	width: 100%;
+	position: absolute;	
+}
+
+#slideshow div img {
+	height: 100%;
+	width: 100%
+}
+
+#flowarrow {
+	height: 1vw;
+	width: 4vw;
+	opacity: 0.7;
+	margin-top: 1.5vw;
+}
+
+.feed {
+	margin-top: 3vw;
+	font-family: Raleway;
+}
+
+.feed table {
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+.feed th {
+	text-align: center;
+	display: inline-table;
+}
+
+
+.feed th div {
+	width: 26vw;
+	height: 26vw;
+	position: relative;
+	background-color: grey;
+	overflow: hidden;
+	margin: 1vw;
+	text-align: center;
+	opacity: 1.0;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-ms-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+ 	 transition: all .2s ease-in-out;
+}
+
+.feed th div img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#caption {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: auto;
+	z-index: 10;
+	font-family: Raleway;
+	font-size: 2vw;
+	overflow-wrap: normal;
+	padding-top: 12vw;
+	background: transparent;
+	color: white;
+	word-wrap: break-word;
+	text-shadow: 2px 2px 4px black;
+	opacity: 0.0;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-ms-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+ 	 transition: all .2s ease-in-out;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+}
+
+#caption p {
+	margin-top: -1.5vw;
+}
+
+.feed th div:hover {
+	-webkit-opacity: 0.4;
+  	-moz-opacity: 0.4;
+  	opacity: 0.4;
+}
+
+#caption:hover {
+	-webkit-opacity: 1.0;
+  	-moz-opacity: 1.0;
+  	opacity: 1.0;
+}
+
+#Container {
+	width: 85vw;
+	margin: auto;
+	margin-top: 2.5vw;
+	position: relative;
+	text-align: center;
+}
+
+#Banner {
+	width: 100%;
+	height: 43vw;
+	position: relative;
+	display: block;
+}
+
+.recipetitle p {
+	position: absolute;
+	margin: auto;
+	margin-top: .3vw;
+	margin-left: 1vw;
+	font-size: 1.5vw;
+	color: black;
+	font-family: Salaryman;
+}
+
+#Banner img {
+	width: 100%;
+	height: 100%;
+	border: none;
+	position: absolute;
+	display: block;
+	clear: both;
+}
+
+h1 {
+	font-size: 3vw;
+	color: black;
+	font-family: Salaryman;
+	display: block;
+	font-weight: 100;
+	margin-bottom: 1.7vw;
+	
+}
+
+.recipe {
+	text-align: center;
+	color: black;
+	font-family: Raleway;
+	display: block;
+	clear: both;
+	position: absolute;
+	width: 95%;
+	margin: auto;
+	margin-bottom: 1.5vw;
+}
+
+.recipe div {
+	display: inline-block;
+	margin-top: 2vw;
+	text-align: left;
+	vertical-align: top;
+}
+
+#ingredients {
+	width: 20vw;
+	position: relative;
+}
+	
+#ingredients h2 {
+	font-size: 2vw;
+	font-family: Salaryman;
+}
+
+#ingredients h2:nth-of-type(2) {
+	font-size: 1.25vw;
+}
+
+#preparation {
+	width: 50vw;
+	margin-left: 7vw;
+	position: relative;
+}
+
+#preparation h2 {
+	font-size: 2vw;;
+	font-family: Salaryman;
+}
+
+ul {
+	font-size: 1.5vw;
+}
+
+ul li {
+	margin-bottom: 1.2vw;
+}
+
+ol {
+	font-size: 1.5vw;
+}
+
+ol li {
+	margin-bottom: 2vw;
+}
+
+em {
+	font-weight: 600;
+	font-style: normal;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	opacity: 0.4;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (max-width: 800px) {
+	.title {
+		align: center;
+		display: block;
+		font-size: 4vw;	
+	}
+
+	.icon {
+		display: inline;
+		padding-left: 1vw;
+	}	
+
+	.tab {
+		display: none;
+		font-size: 2vw;
+		background: blue;
+	}
+
+	.title a:hover .tab {
+		display: block;
+	}
+
+	.title a:focus .tab {
+		display: block;
+	}
+
+	.dropbtn {
+		font-size: 2vw;
+	} 
+
+	.dropdown-content {
+		margin: auto;
+	}
+
+	.dropdown:hover .dropdown-content {
+    		display: inline-block;
+		margin: auto;
+		z-index: 10;
+		box-shadow: 0vw .5vw 1vw 0vw rgba(0,0,0,0.2);
+	}
+
+	.dropdown:focus .dropdown-content {
+		display: inline-block;
+		margin: auto;
+		z-index: 10;
+		box-shadow: 0vw .5vw 1vw 0vw rgba(0,0,0,0.2);
+	}
+
+	.header:hover .tab {
+		display: block;
+		z-index: 9;
+		background: white;
+		margin-top: 1vw;
+	}
+
+	.header:focus .tab {
+		display: block;
+		z-index: 9;
+		background: white;
+		margin-top: 1vw;
+	}
+
+	.feed th div {
+		width: 75vw;
+		height: 75vw;
+		margin-bottom: 5vw;
+	}
+	
+	#caption {
+		font-size: 7vw;
+		padding-top: 34vw;
+	}
+	
+	#caption p {
+		margin-top: -5vw;
+	}
+}
