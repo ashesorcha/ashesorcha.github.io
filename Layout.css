@@ -1,16 +1,16 @@
 @font-face {
- 	font-family: Salaryman;
+ 	font-family: 'Salaryman';
   	src: url(www.WebpagePublicity.com/free-fonts/s/Salaryman.ttf);
 }
 
 @font-face {
-	font-family: Raleway Thin;
+	font-family: 'Raleway Thin';
 	src= url(https://fonts.googleapis.com/css?family=Raleway:100);	
 }
 
 .header {
 	font-size: 1vw;
-	font-family: Salaryman;
+	font-family: 'Salaryman', 'Raleway Thin';
 }
 
 .header table {
