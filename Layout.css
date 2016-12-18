@@ -184,6 +184,12 @@ th {
 	margin-top: -1.5vw;
 }
 
+.chinese {
+	font-family: KaiTi; 
+	font-size: 3vw; 
+	font-weight: 100;
+}
+
 .feed th div:hover {
 	-webkit-opacity: 0.4;
   	-moz-opacity: 0.4;
@@ -394,5 +400,9 @@ a:visited {
 	
 	#caption p {
 		margin-top: -5vw;
+	}
+
+	.chinese {
+		font-size: 7vw;
 	}
 }
